@@ -5,8 +5,7 @@ import { useState } from "react"
 function Todolistcontainer() {
 
     const [list, setlist] = useState([
-        { id: 1, activity: "Apple" },
-        { id: 2, activity: "Mango" }
+        { id: 1, activity: "Wake up at 6am" }
     ])
 
     return (
